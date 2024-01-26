@@ -16,7 +16,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-zinc-900 max-w-3xl mx-auto py-10">
+      <body className="px-6 sm:px-0 md:px-0 bg-zinc-900 max-w-3xl mx-auto py-10">
         <header className="flex items-center justify-between">
           <Link href="/" className="bg-gradient-to-r from-orange-300 via-orange-100 to-amber-200 bg-clip-text text-transparent text-lg font-bold">Alexandra Lanorias</Link>
           <div className="flex items-center gap-5 text-sm text-amber-100">

@@ -6,9 +6,9 @@ export default async function Home() {
   const projects = await getProjects();
 
   return (
-    <div>
-      <h1 className="text-7xl font-extrabold text-zinc-400">hi hello i&apos;m
-        <span className="bg-gradient-to-r from-orange-300 via-orange-100 to-amber-200 bg-clip-text text-transparent"> alexa!</span>
+    <div className="px-4 sm:px-0 md:px-0">
+      <h1 className="text-7xl font-extrabold text-zinc-400">hello, i&apos;m
+        <span className="bg-gradient-to-r from-orange-300 via-orange-100 to-amber-200 bg-clip-text text-transparent"> alex!</span>
       </h1>
       <p className="mt-3 text-xl text-amber-100">I&apos;m a Filipina developer from Davao City, and I love tinkering with React and Next.js!</p>
       <h2 className="mt-24 font-bold text-amber-100 text-3xl">My Projects</h2>
