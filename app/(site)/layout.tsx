@@ -25,7 +25,7 @@ export default async function RootLayout({
               <Link key={page._id} href={`/${page.slug}`} className="hover:underline">{page.title}</Link>
             ))}
             {/* Resume Link */}
-            <a href="../../assets/Alexandra_Lanorias-Resume.pdf" download className="hover:underline">Resume</a>
+            <a href="https://drive.google.com/uc?export=download&id=1eO0XkHyRc-FVMOhEvTpq7Vo5h4MnLKDJ" download className="hover:underline">Resume</a>
 
           </div>
 
