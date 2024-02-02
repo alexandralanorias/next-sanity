@@ -17,6 +17,9 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="px-6 sm:px-0 md:px-0 bg-zinc-900 max-w-3xl mx-auto py-10">
         <header className="flex items-center justify-between">
           <Link href="/" className="bg-gradient-to-r from-orange-300 via-orange-100 to-amber-200 bg-clip-text text-transparent text-lg font-bold">Alexandra Lanorias</Link>
