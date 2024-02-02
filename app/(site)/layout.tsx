@@ -1,6 +1,7 @@
 import '../globals.css'
 import Link from "next/link"
 import { getPages } from '@/sanity/sanity-utils';
+import Footer from '../components/footer'; // Import the Footer component
 
 export const metadata = {
   title: 'Alexandra Lanorias',
@@ -28,6 +29,9 @@ export default async function RootLayout({
 
         </header>
         <main className="py-20">{children}</main>
+
+        {/* Include the Footer component */}
+        <Footer />
       </body>
     </html>
   )
