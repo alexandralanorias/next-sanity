@@ -24,6 +24,8 @@ export default async function RootLayout({
             {pages.map((page) => (
               <Link key={page._id} href={`/${page.slug}`} className="hover:underline">{page.title}</Link>
             ))}
+            {/* Resume Link */}
+            <a href="../../assets/Alexandra_Lanorias-Resume.pdf" download className="hover:underline">Resume</a>
 
           </div>
 
